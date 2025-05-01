@@ -112,6 +112,7 @@ public class PageController {
             // Call the service directly — no need to construct a URL or use RestTemplate
             ResponseEntity<String> response = quizService.createQuiz(
                     quizForm.getCategory(),
+                    quizForm.getLevel(),
                     quizForm.getNumQ(),
                     quizForm.getTitle()
             );

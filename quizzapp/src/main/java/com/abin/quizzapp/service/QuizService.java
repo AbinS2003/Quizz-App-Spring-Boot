@@ -23,13 +23,14 @@ public class QuizService {
     @Autowired
     QuestionRepository questionRepository;
 
-    public ResponseEntity<String> createQuiz(String category, int numQ, String title) {
+    public ResponseEntity<String> createQuiz(String category, String level, int numQ, String title) {
 
         System.out.println("Category from qsevice" + category);
         System.out.println("numQ from qsevice" + numQ);
         System.out.println("title from qsevice" + title);
+        System.out.println("level from qsevice" + level);
 
-        List<Question> questions = questionRepository.findRandomQuestionsByCategory(category, numQ);
+        List<Question> questions = questionRepository.findRandomQuestionsByCategory(category, level, numQ);
 
     // for testing the data from database
         System.out.println("Category: " + category);
