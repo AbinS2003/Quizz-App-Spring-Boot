@@ -23,6 +23,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+
+
 @Controller
 public class PageController {
 
@@ -41,7 +43,10 @@ public class PageController {
     }
 
     @GetMapping("/login")
-    public String login(Model model) {
+    public String login(@RequestParam(value = "error", required = false) String error,Model model) {
+        if (error != null) {
+            model.addAttribute("errorMessage", "Invalid email or password!");
+        }
         model.addAttribute("loginRequest", new LoginRequest());
         return "login";
     }
@@ -55,7 +60,7 @@ public class PageController {
     public String saveUser(@ModelAttribute("user") UserDto userDto, Model model) {
 
         userService.save(userDto);
-        model.addAttribute("message", "Registered Succesfully");
+        model.addAttribute("successMessage", "Registered Succesfully");
         return "signup";
     }
 
