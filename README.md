@@ -40,7 +40,7 @@ Training to become a Java full-stack developer
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Homepage](static/screenshots/homepage.png)
+![Homepage](quizzapp/src/main/resources/static/screenshots)
 
 ### 🔐 Login Page
 ![Login Page](screenshots/login.png)
