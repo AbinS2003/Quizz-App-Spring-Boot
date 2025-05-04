@@ -34,13 +34,13 @@ quizzapp/
 ├── application.properties
 
 ## 🙋 Author
-Abin
-Training to become a Java full-stack developer
+- Abin
+- Training to become a Java full-stack developer
 
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Homepage](quizzapp/src/main/resources/static/screenshots)
+![Homepage](quizzapp/src/main/resources/static/screenshots/login.png)
 
 ### 🔐 Login Page
 ![Login Page](screenshots/login.png)
