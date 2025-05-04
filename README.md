@@ -40,7 +40,7 @@ Training to become a Java full-stack developer
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Homepage](screenshots/homepage.png)
+![Homepage](static/screenshots/homepage.png)
 
 ### 🔐 Login Page
 ![Login Page](screenshots/login.png)
