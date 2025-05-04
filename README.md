@@ -20,7 +20,8 @@ A full-stack quiz application built using **Spring Boot** that allows users to t
 - **Maven**
 
 ## 📁 Project Structure
-quizzapp/
+```
+quizzapp/  
 └── src/
 └── main/
 ├── java/com/abin/quizzapp/
@@ -32,27 +33,28 @@ quizzapp/
 │ └── QuizzappApplication.java
 └── resources/
 ├── application.properties
+```
 
 ## 🙋 Author
-- Abin
-- Training to become a Java full-stack developer
+Abin<br>
+Training to become a Java full-stack developer
 
 ## 🖼️ Screenshots
 
 ### 🏠 Homepage
-![Homepage](quizzapp/src/main/resources/static/screenshots/login.png)
+![Homepage](quizzapp/src/main/resources/static/screenshots/homepage.png)
 
 ### 🔐 Login Page
-![Login Page](screenshots/login.png)
+![Login Page](quizzapp/src/main/resources/static/screenshots/login.png)
 
 ### 📝 Signup Page
-![Signup Page](screenshots/signup.png)
+![Signup Page](quizzapp/src/main/resources/static/screenshots/signup.png)
 
 ### 🧠 Quiz Interface
-![Quiz Interface](screenshots/quiz.png)
+![Quiz Interface](quizzapp/src/main/resources/static/screenshots/quiz.png)
 
 ### ❓Quiz Creation
-![Quiz Creation](screenshots/quizcreate.png)
+![Quiz Creation](quizzapp/src/main/resources/static/screenshots/quizcreate.png)
 
 
 
